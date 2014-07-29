@@ -1,0 +1,47 @@
+<html>
+<head> <meta charset='utf-8'/> </head>
+
+ <body>
+ <iframe src="http://webchat.freenode.net?channels=%23yrs&uio=d4" width="647" height="400"></iframe>
+<a class="twitter-timeline"  href="https://twitter.com/CheesyCDartyD"  data-widget-id="494105100965527552">Tweets by @CheesyCDartyD</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+NHS: <form>
+ <input type="radio" name="money" value="£100 million"> £100 million
+ <input type="radio" name="money" value="£500 Million">£500 Million
+ <input type="radio" name="money" value="£1 billion"> £1 billion
+ <input type="radio" name="money" value="£5 billion">£5 billion
+</form>
+
+MOD: <form>
+ <input type="radio" name="money" value="£1 billion"> £1 billion
+ <input type="radio" name="money" value="£5 billion"> £5 billion
+ <input type="radio" name="money" value="£20 billion"> £20 billion
+ <input type="radio" name="money" value="£50 billion"> £50 billion
+</form>
+
+Foreign Office: <form>
+ <input type="radio" name="money" value="£1 billion">£1 billion
+ <input type="radio" name="money" value="£2 billion">£2 billion
+ <input type="radio" name="money" value="£10 billion">£10 billion
+ <input type="radio" name="money" value="£15 billion">£15 billion
+</form>
+HMRC:<form>
+ <input type="radio" name="money" value="£1 billion">£1 billion
+ <input type="radio" name="money" value="£5 billion">£5 billion
+ <input type="radio" name="money" value="£20 billion">£50 billion
+</form>
+Ministry of Justice: <form>
+ <input type="radio" name="money" value="£10 million">£10 million
+ <input type="radio" name="money" value="£50 million">£50 million
+ <input type="radio" name="money" value="£100 million">£100 million
+ <input type="radio" name="money" value="£1 billion">£1 billion
+</form>   
+Home Office: <form>
+ <input type="radio" name="money" value=
+</form>
+   Speed Of Game: <input type="text" name="speed" maxlength="2"> Change from 2x/4x/8x<input type="submit" name="speed">
+
+ </body
+</html>

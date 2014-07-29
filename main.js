@@ -66,14 +66,3 @@ function Department(name, amount)
     
     return this
 }
-
-var d = [new Department("Rhys's Food", 1000000),
-         new Department("Rhys's Servants", 1000000)]
-
-var g = new Goverment(1000000, d)
-
-console.log(g.toString())
-
-console.log(g.step())
-
-console.log(g.toString())

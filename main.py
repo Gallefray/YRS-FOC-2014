@@ -22,17 +22,18 @@ class Goverment(object):
         return complaints
     
     def __str__(self):
-        return "Goverment(dept=%d pounds income=%d pounds)" % (self.dept, self.income)
+        return "Goverment(dept=%d pounds income=%d pounds outgoing=%d pounds)" % (self.dept, self.income, self.outgoing)
 
 class Department(object):
     def __init__(self, name, amount):
         self.name = name
         
         self.amount = amount
+        self.start_amount = amount
     
     def get_complaints(self):
-		if self.amount < 0: #TODO: What number should be here?
-			return ["No little money being invested in %s." % (self.name)]
+		if self.amount < self.start_amount/2:
+			return ["Too little money being invested in %s." % (self.name)]
 		else:
 			return []
     
@@ -41,10 +42,3 @@ class Department(object):
                self.amount)
     
     __repr__ = __str__
-
-g = Goverment(1000000, [Department("Rhys's Food", 1000000),
-                        Department("Rhys's Servants", 1000000)])
-
-print g
-print g.step()
-print g

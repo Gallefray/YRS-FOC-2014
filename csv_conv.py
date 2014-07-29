@@ -2,7 +2,7 @@ import csv
 import json
 
 csvfile = open('data/oscar.csv', 'r')
-jsonfile = open('data/oscar_json.json', 'w')
+jsonfile = open('data/oscar.json', 'w')
 
 fieldnames = ("name", "value")
 reader = csv.DictReader( csvfile, fieldnames)

@@ -1,0 +1,40 @@
+<html>
+ <body>
+
+HMRC:<form action="HMRC">
+<select name="HMRC">
+<option value="£1 billion">£1 billion</option>
+<option value="£5 billion">£5 billion</option>
+<option value="£20 billion">£20 billion</option>
+<option value="£50 billion">£50 billion</option>
+</select>
+<input type="submit">
+</form>
+
+NHS: <form action="">
+ <input type="radio" name="money" value="£100 million"> £100 million
+ <input type="radio" name="money" value="£500 Million">£500 Million
+ <input type="radio" name="money" value="£1 billion"> £1 billion
+ <input type="radio" name="money" value="£5 billion">£5 billion
+</form>
+
+MOD: <form action="">
+ <input type="radio" name="money" value="£1 billion">£1 billion
+ <input type="radio" name="money" value="£5 billion">£5 billion
+ <input type="radio" name="money" value="£20 billion"> £20 billion
+ <input type="radio" name="money" value="£50 billion">£50 billion
+</form>
+
+Foreign Office: <form action="">
+ <input type="radio" name="money" value="£1 billion">£1 billion
+ <input type="radio" name="money" value="£2 billion">£2 billion
+ <input type="radio" name="money" value="£10 billion">£10 billion
+ <input type="radio" name="money" value="£15 billion">£15 billion
+</form>
+
+
+   
+   Speed Of Game: <input type="stepspeed" name="speed" maxlength="2"> Change from 2x/4x/8x<input type="submit" name="speed">
+
+ </body
+</html>

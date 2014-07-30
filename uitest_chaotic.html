@@ -72,10 +72,10 @@
                 goverment.step()
                 
                 console.log("Income: " + goverment.income)
-                console.log("Dept: " + goverment.dept)
+                console.log("Debt: " + goverment.debt)
                 console.log("Outgoing: " + goverment.outgoing)
                 
-                document.getElementById("dept").value = goverment.dept
+                document.getElementById("debt").value = goverment.debt
                 document.getElementById("outgoing").value = goverment.outgoing
             }
         </script>
@@ -84,7 +84,7 @@
             All values are measured in billions of pounds.<br></br>
             
             <input id="income" oninput="goverment.income = parseFloat(this.value)"></input>Income<br></br>
-            <input id="dept" readonly="true" value=""></input>Dept<br></br>
+            <input id="debt" readonly="true" value=""></input>Debt<br></br>
             <input id="outgoing" readonly="true" value=""></input>Outgoing<br></br>
             <button id="step" style="width: 100%;" onclick="on_step_button_click()">step</button>
         </div>

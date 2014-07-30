@@ -83,4 +83,5 @@ function loadJSON(income, json_data)
     return Goverment(income, departments)
 }
 
-console.log(loadJSON(0, "{\"abc\":15, \"pP\":70}").departments.toString())
+//console.log(loadJSON(0, "{\"abc\":15, \"pP\":70}").departments.toString())
+

@@ -1,16 +1,45 @@
 <!DOCTYPE html>
 <html>
+    <script src="main.js" type="text/javascript"></script>
+    <script src="data.js" type="text/javascript"></script>
+    
     <body onload="onload()">
         <script type="text/javascript">
             function onload()
             {
-                var btn
+                var income=100
                 
-                for (var i=0; i<10; i++)
+                var keys = Object.keys(json_data)
+                
+                var departments = []
+                
+                for (i in keys)
                 {
-                    btn=document.createElement("input")
+                    departments[departments.length] = new Department(keys[i], json_data[keys[i]])
+                }
+                console.log(departments[i].toString() )
+                var goverment = Goverment(income, departments)
+                
+                var inputs={}
+                var br, input
+                
+                for (i in departments)
+                {
+                    input=document.createElement("input")
                     
-                    document.body.appendChild(btn)
+                    input.value = departments[i].amount
+                    
+                    document.body.appendChild(input)
+                    
+                    label = document.createTextNode(departments[i].name)
+                    
+                    document.body.appendChild(label)
+                    
+                    br=document.createElement("br")
+                    
+                    document.body.appendChild(br)
+                    
+                    inputs[departments[i].name] = input
                 }
             }
         </script>

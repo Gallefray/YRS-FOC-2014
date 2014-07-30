@@ -83,7 +83,7 @@ function loadJSON(income, json_data)
     return Goverment(income, departments)
 }
 
+//eval(loadJSON(0, data_load()).departments);
 //console.log(data_load().departments.toString());
-console.log(loadJSON(0, data_load()).departments.toString())
 //console.log(loadJSON(0, "{\"abc\":15, \"pP\":70}").departments.toString())
 

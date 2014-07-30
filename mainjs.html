@@ -1,1 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <script src="main.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
 
+    <body onload="onload()">
+        <script type="text/javascript">
+            function onload()
+            {
+                var data=""
+                
+                $.get("data/gov-spend-2012.json", function(d) {data=d})
+                
+                //alert(Quack(0, data).departments.toString())
+                alert(data)
+            }
+        </script>
+    </body>
+</html>

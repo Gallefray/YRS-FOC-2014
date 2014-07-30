@@ -11,5 +11,4 @@ function data_load() {
 		}});
 	return d;
 }
-
 // console.log(data_load());

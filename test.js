@@ -1,13 +1,15 @@
-
-function foo() {
-	var data = "";
-	var dest = "./data/gov-spend-2012.json"; //"./data/test.json"; //
-	$.getJSON(dest, function(d) 
-					{
-						data = d;
-					});
-	console.log(data);
-	//$("section > p").append(data);
+function data_load() {
+	var d = "";
+	var dest = "./data/gov-spend-2012.json";// "./data/test.json"; //
+	$.ajax({
+		url:dest,
+		dataType:'json',
+		data:"",
+		async:false,
+		success: function (data) {
+			d = data;
+		}});
+	return d;
 }
 
-foo();
+//console.log(data_load());

@@ -66,3 +66,21 @@ function Department(name, amount)
     
     return this
 }
+
+function loadJSON(income, json_data)
+{
+    var data = JSON.parse(json_data)
+    
+    var keys = Object.keys(data)
+    
+    var departments = []
+    
+    for (i in keys)
+    {
+        departments[departments.length] = new Department(keys[i], data[keys[i]])
+    }
+    
+    return Goverment(income, departments)
+}
+
+console.log(loadJSON(0, "{\"abc\":15, \"pP\":70}").departments.toString())

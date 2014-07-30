@@ -3,7 +3,7 @@ function data_load() {
 	var dest = "./data/gov-spend-2012.json";// "./data/test.json"; //
 	$.ajax({
 		url:dest,
-		dataType:'json',
+		dataType:'text',
 		data:"",
 		async:false,
 		success: function (data) {
@@ -12,4 +12,4 @@ function data_load() {
 	return d;
 }
 
-//console.log(data_load());
+// console.log(data_load());

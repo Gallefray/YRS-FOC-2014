@@ -2,7 +2,7 @@ import csv
 import json
 
 csv_file = open("data/gov-spend-2012.csv")
-json_file = open("data/gov-spend-2012-json", "w")
+json_file = open("data/gov-spend-2012.json", "w")
 
 reader = csv.DictReader(csv_file)
 

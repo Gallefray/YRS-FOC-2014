@@ -21,7 +21,7 @@
             
             function onload()
             {
-                var income=100
+                var income = parseFloat(document.getElementById("income").value)
                 
                 var keys = Object.keys(json_data)
                 
@@ -83,7 +83,7 @@
         <div id="controls" style="position: fixed; right: 15%;">
             All values are measured in billions of pounds.<br></br>
             
-            <input id="income" oninput="goverment.income = parseFloat(this.value)"></input>Income<br></br>
+            <input id="income" value="100" oninput="goverment.income = parseFloat(this.value)"></input>Income<br></br>
             <input id="debt" readonly="true" value=""></input>Debt<br></br>
             <input id="outgoing" readonly="true" value=""></input>Outgoing<br></br>
             <button id="step" style="width: 100%;" onclick="on_step_button_click()">step</button>

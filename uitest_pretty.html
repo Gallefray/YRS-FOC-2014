@@ -4,7 +4,7 @@
     <script src="main.js" type="text/javascript"></script>
     <script src="glue.js" type="text/javascript"></script>
     
-    <body onload="onload()" style="color: #FFFFFF; background-image: url(http://www.thedrum.com/uploads/drum_basic_article/117188/main_images/Government.jpg); background-repeat: -repeat;background-position: center; background-size: 100% 100%;">
+    <body onload="onload()" style="/*color: #FFFFFF; background-image: url(http://www.thedrum.com/uploads/drum_basic_article/117188/main_images/Government.jpg); background-repeat: -repeat;background-position: center; background-size: 100% 100%;*/">
         <script type="text/javascript">
             var goverment
             var inputs={}
@@ -22,12 +22,16 @@
             
             function onload()
             {
+                document.getElementById("debt").value = 732
+                document.getElementById("savings").value = 0
+                document.getElementById("income").value = 648
+                document.getElementById("outgoing").value = 0
+                
                 var income = parseFloat(document.getElementById("income").value)
                 
                 goverment = loadJSON(income, data_load())
                 
                 var br, input, label
-                var div = document.getElementById("d")
                 
                 for (i in departments)
                 {
@@ -49,7 +53,7 @@
                     
                     document.body.appendChild(label)
                     
-                    br=document.createElement("br")
+                    br = document.createElement("br")
                     
                     document.body.appendChild(br)
                     
@@ -66,19 +70,32 @@
                 console.log("Income: " + goverment.income)
                 console.log("Debt: " + goverment.debt)
                 console.log("Outgoing: " + goverment.outgoing)
+                console.log("Savings: " + goverment.savings)
                 
                 document.getElementById("debt").value = goverment.debt
                 document.getElementById("outgoing").value = goverment.outgoing
+                document.getElementById("savings").value = goverment.savings
+            }
+            
+            function on_reset_button_click()
+            {
+                goverment.debt = 732
+                goverment.savings = 0
+                
+                document.getElementById("debt").value = 732
+                document.getElementById("savings").value = 0
             }
         </script>
         
         <div id="controls" style="position: fixed; right: 15%;">
             All values are measured in billions of pounds.<br></br>
             
-            <input id="income" value="100" oninput="goverment.income = parseFloat(this.value)"></input>Income<br></br>
-            <input id="debt" readonly="true" value=""></input>Debt<br></br>
-            <input id="outgoing" readonly="true" value=""></input>Outgoing<br></br>
+            <input id="income" value="648" oninput="goverment.income = parseFloat(this.value)"></input>Income<br></br>
+            <input id="savings" readonly="true" value="0"></input>Savings<br></br>
+            <input id="debt" readonly="true" value="732"></input>Debt<br></br>
+            <input id="outgoing" value="0" readonly="true" value=""></input>Outgoing<br></br>
             <button id="step" style="width: 100%;" onclick="on_step_button_click()">step</button>
+            <button id="reset" style="width: 100%;" onclick="on_reset_button_click()">reset</button>
         </div>
     </body>
 </html>

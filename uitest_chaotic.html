@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<script type="text/javascript" 
-			src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="main.js" type="text/javascript"></script>
     <script src="glue.js" type="text/javascript"></script>
     
@@ -23,20 +22,9 @@
             
             function onload()
             {
-				eval("var json_data = " + data_load());
-                var income=100
-                
-                var keys = Object.keys(json_data)
-                
-                var departments = []
-                
-                for (i in keys)
-                {
-                    departments[departments.length] = new Department(keys[i], parseFloat(json_data[keys[i]]))
-                }
-                console.log(departments[i].toString() )
-				var goverment = loadJSON(income, data_load())
-                //goverment = Goverment(income, departments)
+                var income = parseFloat(document.getElementById("income").value)
+
+		var goverment = loadJSON(income, data_load())
                 
                 var br, input, label
                 var div = document.getElementById("d")

@@ -1,6 +1,6 @@
 function Goverment(income, departments)
 {
-    this.dept = 0
+    this.debt = 0
     this.income = income
     this.outgoing = 0
     
@@ -9,6 +9,7 @@ function Goverment(income, departments)
     this.step = function()
     {
         this.outgoing = 0
+        this.debt = 0
         
         var complaints = []
         var complaint = 0
@@ -27,7 +28,7 @@ function Goverment(income, departments)
         
         if (this.outgoing > this.income)
         {
-            this.dept = this.outgoing - this.income   
+            this.debt = this.outgoing - this.income   
         }
         
         return complaints
@@ -35,7 +36,7 @@ function Goverment(income, departments)
     
     this.toString = function()
     {
-        return "Goverment(dept="+this.dept.toString()+" pounds income="+this.income.toString()+" pounds outgoing="+this.outgoing.toString()+" pounds)"
+        return "Goverment(debt="+this.debt.toString()+" pounds income="+this.income.toString()+" pounds outgoing="+this.outgoing.toString()+" pounds)"
     }
     
     return this

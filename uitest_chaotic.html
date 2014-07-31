@@ -23,10 +23,10 @@
             
             function onload()
             {
-				eval("var json_data = " + data_load());
+				//eval("var json_data = " + data_load());
                 var income=100
                 
-                var keys = Object.keys(json_data)
+                /*var keys = Object.keys(json_data)
                 
                 var departments = []
                 
@@ -34,7 +34,7 @@
                 {
                     departments[departments.length] = new Department(keys[i], parseFloat(json_data[keys[i]]))
                 }
-                console.log(departments[i].toString() )
+                console.log(departments[i].toString() )*/
 				var goverment = loadJSON(income, data_load())
                 //goverment = Goverment(income, departments)
                 

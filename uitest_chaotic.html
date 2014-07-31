@@ -23,8 +23,8 @@
             function onload()
             {
                 var income = parseFloat(document.getElementById("income").value)
-
-		var goverment = loadJSON(income, data_load())
+                
+                goverment = loadJSON(income, data_load())
                 
                 var br, input, label
                 var div = document.getElementById("d")
@@ -75,7 +75,7 @@
         <div id="controls" style="position: fixed; right: 15%;">
             All values are measured in billions of pounds.<br></br>
             
-            <input id="income" oninput="goverment.income = parseFloat(this.value)"></input>Income<br></br>
+            <input id="income" value="100" oninput="goverment.income = parseFloat(this.value)"></input>Income<br></br>
             <input id="debt" readonly="true" value=""></input>Debt<br></br>
             <input id="outgoing" readonly="true" value=""></input>Outgoing<br></br>
             <button id="step" style="width: 100%;" onclick="on_step_button_click()">step</button>

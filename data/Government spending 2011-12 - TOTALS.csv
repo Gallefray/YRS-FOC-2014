@@ -1,0 +1,77 @@
+UK SPENDING 2011-12,,,,,,,
+"Public spending by the UK's central government departments, 2011-2012. The figures give a picture of major expenditure but exclude local government spending not controlled by central government. We don't have room to show everything — some programmes are just too small to go here, but this gives a flavour of where your tax pounds go. It also excludes government departments who are predominantly financed by their income, such as the Crown Estate or the Export Credits Guarantee Department",,,,,,,
+DEPARTMENT,"2010/11, £bn","2011/12, £bn",,% change,2011/12 figure at 2010/11 prices,% change including inflation,NOTES
+TOTAL EXPENDITURE,689.63,694.888,,0.8,678.73,-1.58,
+DWP!A1,160.08,166.979,,4.3,163.10,1.88,"Benefit spending excludes child benefit, guardians' allowance; widow’s pensions; statutory paternity pay, statutory adoption pay - these paid by HMRC, MoD, BIS respectively"
+DoH!A1,105.45,106.659,,1.1,104.18,-1.20,Excludes spending on family health services and GP
+DFE!A1,58.28,56.269,,-3.5,54.96,-5.70,
+Debt interest payments,43.30,48.200,,11.3,47.08,8.73,Interest paid on the public debt
+HMRC!A1,45.78,46.585,,1.8,45.50,-0.61,Spending on Child Benefits and Tax Credits etc does not come out of the departmental expenditure pot
+MOD!A1,38.12,37.249,,-2.3,36.38,-4.55,"Data from Treasury COINS database, operations spending in Libya, Iraq an Afghanistan paid for separately out of Treasury Special reserve and details from House of Commons Library"
+SCOTLAND!A1,34.53,33.524,,-2.9,32.74,-5.18,
+DCLG!A1,37.60,32.727,,-13.0,31.97,-14.98,
+BIS!A1,22.63,21.336,,-5.7,20.84,-7.90,
+WALES!A1,15.87,15.003,,-5.4,14.65,-7.64,
+DfT!A1,12.34,12.735,,3.2,12.44,0.82,
+NI!A1,10.3161,10.329,,0.1,10.09,-2.20,
+HO!A1,10.43,10.097,,-3.2,9.86,-5.41,
+MoJ!A1,9.351,8.551,,-8.6,8.35,-10.68,
+Total public service pensions,5.6,8.400,,50.0,8.20,46.51,
+DFID!A1,7.552,7.873,,4.3,7.69,1.83,
+DCMS!A1,6.742,7.624,,13.1,7.45,10.45,Data from Treasury COINS database
+European Union,8,6.967,,-12.9,6.81,-14.94,"Overall contribution, includes the effects of the UK's rebate, without which the 2011-12 contribution would be £15.6bn"
+HEFCE (BIS),7.4827,6.843,,-8.6,6.68,-10.68,
+DECC!A1,8.113,6.120,,-24.6,5.98,-26.32,
+DEFRA!A1,2.281,2.331,,2.2,2.28,-0.21,The Rural Payments Agency distributes CAP payments - covered by transfers from EU so do not show up as net spending here
+FCO!A1,2.255,2.195,,-2.7,2.14,-4.92,"Running costs includes salaries, hospitality budgets, home and overseas accommodation costs"
+Security and intelligence services,1.93,1.987,,3.0,1.94,0.63,
+National Lottery Commission (funds distribution),1.6553,1.813,,9.5,1.77,6.96,This cash is distributed to 'good causes'. This financial year £135m went to the Olympics and Paralympics - on top of over £750m in April 2012
+Office of Gas and Electricity Markets/Gas and Electricity Markets Authority (OFGEM),0.00070,0.00067,,-3.3,0.00,-5.5,
+Crown Prosecution Service (CPS),0.613,0.589,,-3.9,0.58,-6.12,
+Financial Services Authority,0.458,0.492,,7.4,0.48,4.93,
+Serious Organised Crime Agency (SOCA),0.405593,0.465,,14.7,0.45,12.06,
+Arts Council England,0.457,0.461,,0.9,0.45,-1.47,
+'CABINET%20OFFICE'!A1,0.576,0.461,,-20.0,0.45,-21.88,
+National Policing Improvement Agency (NPIA),0.39974,0.364,,-9.0,0.36,-11.10,
+UK Statistics Authority,0.304,0.325,,7.2,0.32,4.69,
+House of Commons,0.164,0.230,,40.6,0.22,37.31,Increase due to the 2010 election: the absence of MPs during the campaign reducing costs substantially
+HM Treasury (exc financial stability),1.737,0.228,,-86.9,0.22,-87.18,
+National Savings and Investments,0.162,0.174,,6.9,0.17,4.42,
+English Heritage,0.183,0.170,,-6.8,0.17,-9.01,
+Office for Standards in Education (OFSTED),0.182,0.166,,-8.5,0.16,-10.66,
+Health Protection Agency,0.177,0.161,,-8.9,0.16,-11.01,
+Independent Parliamentary Standards Authority,0.129,0.146,,13.1,0.14,10.46,IPSA was formed in mid-2009
+House of Lords,0.077,0.109,,41.3,0.11,38.01,
+Office of Communications (Ofcomm) from government funding (rest from license fees),0.125,0.109,,-13.2,0.11,-15.24,
+Sport England ,0.113,0.105,,-7.5,0.10,-9.63,
+Food Standards Agency,0.072,0.089,,23.9,0.09,20.97,
+Electoral Commission,0.023,0.086,,266.8,0.08,258.30,
+UK Trade & Investment (UKTI),0.085,0.082,,-4.0,0.08,-6.18,
+Creative Scotland,,0.076,,,,,Took over from Arts Council of Scotland this year
+Olympic Delivery Authority,0.041,0.074,,79.7,0.07,75.48,
+National Audit Office,0.069,0.070,,0.8,0.07,-1.52,
+UK Sport,0.052,0.068,,30.5,0.07,27.42,
+Office of Fair Trading (OFT),0.058,0.062,,6.3,0.06,3.84,
+VisitBritain,0.038,0.050,,32.2,0.05,29.14,
+Equality & Human Rights Commission,0.049,0.043,,-11.6,0.04,-13.67,
+Arts Council Wales,0.036,0.036,,1.0,0.04,-1.32,
+Independent Police Complaints Commission (IPCC),0.033,0.033,,-0.9,0.03,-3.19,
+Serious Fraud Office (SFO),0.036,0.030,,-17.1,0.03,-19.05,
+Office of Rail Regulation (ORR),0.028,0.029,,1.2,0.03,-1.13,
+Security Industry Authority (SIA),0.028,0.028,,0.7,0.03,-1.63,
+Charity Commission for England and Wales,0.030,0.027,,-7.9,0.03,-10.02,
+NIO!A1,0.039,0.022,,-43.4,0.02,-44.73,
+Scotland Office (SO),0.0186,0.021,,12.6,0.02,9.94,The outturn of Scotland Office and Office of the Advocate General dropped from £7.9m in 2010-11 to £7.1m in 2011-12. The figure of £21m includes non-voted costs of Parliamentary elections in Scotland in 2011-12 – which is processed by the Scotland Office but not spent by it
+Water Services Regulation Authority (Ofwat),0.017,0.019,,9.6,0.02,7.10,"Split between Parliament direct, the FCO and DBIS "
+Office of Qualifications and Examinations Regulation (OFQUAL),0.0153,0.016,,5.7,0.02,3.20,
+Independent Safeguarding Authority (ISA),0.0133,0.013,,-1.0,0.01,-3.29,
+Parliamentary Counsel Office (PCO),0.0106,0.009,,-13.6,0.01,-15.58,
+Wales Office (WO),0.0050,0.005,,6.5,0.01,3.98,
+National Lottery Commission (running costs),0.0052,0.005,,-2.3,0.00,-4.57,
+Attorney General's Office (see also LSLO),0.0046,0.004,,-5.6,0.00,-7.83,
+Office of the Immigration Service Commissioner (OISC),0.0039,0.004,,8.8,0.00,6.30,
+HM Crown Prosecution Service Inspectorate,0.0034,0.004,,4.9,0.00,2.47,
+Office for Budget Responsibility,0.0017,0.002,,0.0,0.00,-2.32,
+Treasury Solicitors' Department,0.0005,-0.002,,-400.8,0.00,-393.79,
+Government Actuary's Department (GAD),0.019,-0.002,,-110.6,0.00,-110.34,
+,,,,,0.00,,

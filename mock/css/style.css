@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'afta-sans-reg';
+	src: url('fonts/afta-sans-reg.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: "afta-sans", serif;
+	margin: 0%;
+	padding: 0%;
+	background-color: #ba0930;
+}
+
+header {
+	padding: 5.5%;
+	background-color: #f20538;
+}
+
+section {
+	padding: 1%;
+	padding-bottom: 30%;
+}
+
+footer {
+	padding-bottom: 10%;
+	background-color: #3b0b17; 
+	border-top: 10px solid #820325;
+}

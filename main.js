@@ -78,7 +78,7 @@ function loadJSON(income, json_data)
     
     for (i in keys)
     {
-        departments[departments.length] = new Department(keys[i], data[keys[i]])
+        departments[departments.length] = new Department(keys[i], parseFloat(data[keys[i]]))
     }
     
     return Goverment(income, departments)

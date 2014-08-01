@@ -1,15 +1,17 @@
 function Goverment(income, departments)
 {
-    this.debt = 0
-    this.income = income
+    this.debt = 732 //Real debt
+    this.income = 648 //Real income
     this.outgoing = 0
+    this.savings = 0
     
     this.departments = departments
     
     this.step = function()
     {
         this.outgoing = 0
-        this.debt = 0
+        //this.debt = 0
+        this.savings += this.income
         
         var complaints = []
         var complaint = 0
@@ -26,9 +28,21 @@ function Goverment(income, departments)
             }
         }
         
-        if (this.outgoing > this.income)
+        this.savings -= this.outgoing
+        
+        if (this.savings < 0)
         {
-            this.debt = this.outgoing - this.income   
+            this.debt += -this.savings
+            this.savings = 0
+        } else if (this.savings > 0)
+        {
+            this.debt -= this.savings
+            
+            if (this.debt < 0)
+            {
+                this.saving += -this.debt
+                this.debt = 0
+            }
         }
         
         return complaints
